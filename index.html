@@ -11,14 +11,14 @@
     <title>W. noticias</title>
 </head>
 <body class="escurecer">
-    <header class="header-mobile">
+    <header>
         <img src="./assets/images/logo.svg" alt="logo do site de notícias W.">
 
         <button>
             <img src="./assets/images/icon-menu.svg" alt="ícone do menu hamburguer">
         </button>
 
-        <nav class="abrir">
+        <nav class="mobile">
             <button>
                 <img src="./assets/images/icon-menu-close.svg" alt="Icone X para fexhar o menu">
             </button>
@@ -28,12 +28,25 @@
             <a href="#">Popular</a>
             <a href="#">Trending</a>
             <a href="#">Categorias</a>
-        </navv>
+        </nav>
+
+        <nav class="desktop">
+            <a href="#">Home</a>
+            <a href="#">Novo</a>
+            <a href="#">Popular</a>
+            <a href="#">Trending</a>
+            <a href="#">Categorias</a>
+        </nav>
 
     </header>
 
     <main>
         <section class="primeira-secao">
+            <picture>
+                <source media="(min-whidth: 700px)" srcset="./assets/images/image-web-3-mobile">
+                <img src="./assets/images/image-web-3-mobile.jpg" alt="icone de puzzle colorido">
+            </picture>
+
             <img src="./assets/images/image-web-3-mobile.jpg" alt="ícone de puzzle colorido">
 
             <h1>O futuro brilhante da Web 3.0?</h1>
